@@ -134,3 +134,96 @@ body{
     box-shadow: 5px 10px #5596eb;
 }
 /* END PRODUCT-LIST */
+
+/* START CV */
+.cv {
+    background-color: white;
+    max-width: 782px;
+    min-height: 1300px;
+    margin: 34px auto 0px;
+    display: flex;
+}
+
+.cv .info-cv {
+    background-color: #314b37;
+    flex-grow: 1;
+}
+
+.cv .content-cv {
+    flex-grow: 2;
+}
+.cv .info-cv .info-img {
+    min-height: 34%;
+    background-color: #537c5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-cv .info-img img{
+    border-radius: 50%;
+    border: 10px solid #8aa791;
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.info-img span {
+    font-family: "Google Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.my-info {
+    color: #fff;
+}
+
+.my-info .information ul, .my-school ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.my-info .info-study .intro-study{
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 10px;
+    background-color: #527b5b;
+    border: 2px solid #537c5c;
+    border-radius: 250px;
+}
+
+.my-school span {
+    font-family: "Google Sans", sans-serif;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.intro-work {
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 10px;
+    background-color: #527b5b;
+    border: 2px solid #537c5c;
+    border-radius: 250px;
+}
+
+.content-cv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.content-cv .heading-work {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+/* END CV */
