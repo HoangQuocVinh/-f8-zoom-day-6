@@ -1,0 +1,98 @@
+body{
+    background-color: #e6e6e6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.4;
+}
+
+/* START PRICING-TABLE */
+.heading-pricing {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.heading-pricing h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.heading-pricing p {
+    font-weight: normal;
+}
+
+.heading-pricing p:last-child {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pricing-table {
+    min-width: 24%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.pricing-table h2 {
+    font-size: 1.2rem;
+}
+
+.pricing-table strong {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.pricing-table ul .content {
+    text-transform: capitalize;
+    color: #b0b4bd;
+    margin-top: 20px;
+}
+
+.pricing-table ul .content::before {
+    color: #b0b4bd;
+    content: "\2713";
+    font-size: 1.5rem;
+}
+
+.pricing-btn {
+    min-width: 200px;
+    display: inline-block;
+    border: none;
+    color: #000;
+    background-color: #e8e9f0;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-table:first-child:hover {
+    box-shadow: 10px 10px 5px lightblue;;
+    background-color: #90f190;
+    color: #000;
+}
+
+.pricing-table:last-child:hover {
+    box-shadow: 10px 10px 5px lightblue;
+    background-color: #f37954;
+    color: #000;
+}
+.pricing-table:nth-child(2) {
+    background-color: #0093fc;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.pricing-btn:hover {
+    background-color: #f195f0;
+}
+/* END PRICING-TABLE */
