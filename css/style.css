@@ -96,3 +96,41 @@ body{
     background-color: #f195f0;
 }
 /* END PRICING-TABLE */
+
+/* START PRODUCT-LIST */
+.container-product {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+.content-product {
+    width: 300px;
+    border: 5px solid #000;
+    border-radius: 14px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 calc(26.6666% - 10px); 
+}
+
+.content-product img {
+    max-width: 100%;
+    height: 444px;
+    object-fit: contain;
+}
+
+.container-product button {
+    border-radius: 2px;
+}
+
+.container-product .content-product:hover {
+    cursor: pointer;
+    box-shadow: 5px 10px #5596eb;
+}
+/* END PRODUCT-LIST */
