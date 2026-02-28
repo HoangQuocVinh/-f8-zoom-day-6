@@ -227,3 +227,55 @@ body{
     font-weight: 600;
 }
 /* END CV */
+
+/* START REGISTER */
+.container-register {
+    background-color: white;
+    max-width: 782px;
+    max-height: 1000px;
+    margin: 34px auto 0px;
+    display: flex;
+}
+
+.container-register .form-register,  .container-register .form-register form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.manager-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-input {
+    padding: 16px 26px;
+}
+
+.container-register button{
+    padding: 10px 90px;
+    background-color: #0093fc;
+    border: white;
+}
+
+.container-register .my-submit input {
+    border: none;
+    background-color: #425891;
+}
+.container-register .my-submit{
+    display: flex;
+    padding: 10px 90px;
+    background-color: #425891;
+    border: white;
+}
+
+.container-register .register-img img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* END REGISTER */
+
