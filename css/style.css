@@ -279,3 +279,19 @@ body{
 }
 /* END REGISTER */
 
+/* START FROGGY */
+.img-froggy {
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20;
+}
+
+.img-froggy img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+/* END FROGGY */
+
